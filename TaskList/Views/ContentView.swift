@@ -45,7 +45,7 @@ struct ContentView: View {
         }
       }
       .listStyle(GroupedListStyle())
-      .navigationBarTitle("Tasks")
+      .navigationBarTitle("Note")
       .navigationBarItems(
         leading: EditButton(),
         trailing:
@@ -66,7 +66,7 @@ struct ContentView: View {
           .disabled(!MFMailComposeViewController.canSendMail())
           .sheet(isPresented: $mailViewIsPresented) {
             MailView(
-              messageBody: "This is a test email string",
+              messageBody: "Testing for Wallet App Document Type",
               attachmentInfo: (
                 fileURL: TaskStore.shared.tasksDocURL,
                 mimeType: "application/xml"),
