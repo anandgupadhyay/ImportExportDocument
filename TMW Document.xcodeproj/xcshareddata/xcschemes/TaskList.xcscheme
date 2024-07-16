@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49A2855C22DC34F600B65A77"
-               BuildableName = "TaskList.app"
-               BlueprintName = "TaskList"
-               ReferencedContainer = "container:TaskList.xcodeproj">
+               BuildableName = "TMW Document.app"
+               BlueprintName = "TMW Document"
+               ReferencedContainer = "container:TMW Document.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49A2855C22DC34F600B65A77"
-            BuildableName = "TaskList.app"
-            BlueprintName = "TaskList"
-            ReferencedContainer = "container:TaskList.xcodeproj">
+            BuildableName = "TMW Document.app"
+            BlueprintName = "TMW Document"
+            ReferencedContainer = "container:TMW Document.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49A2855C22DC34F600B65A77"
-            BuildableName = "TaskList.app"
-            BlueprintName = "TaskList"
-            ReferencedContainer = "container:TaskList.xcodeproj">
+            BuildableName = "TMW Document.app"
+            BlueprintName = "TMW Document"
+            ReferencedContainer = "container:TMW Document.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -31,19 +31,19 @@ import Foundation
 
 class TaskStore: ObservableObject {
   static let shared = TaskStore()
-  static let fileExtension = "rwtl"
-
+  static let fileExtension = "sumit"
   private var cancellables: Set<AnyCancellable> = []
 
   let tasksDocURL = URL(
-    fileURLWithPath: "PrioritizedTasks",
+    //PrioritizedTasks
+    fileURLWithPath: "SampleNote",
     relativeTo: FileManager.documentsDirectoryURL).appendingPathExtension(fileExtension)
-
+  
   @Published var prioritizedTasks: [PrioritizedTasks] = [
-    PrioritizedTasks(priority: .high, tasks: []),
-    PrioritizedTasks(priority: .medium, tasks: []),
-    PrioritizedTasks(priority: .low, tasks: []),
-    PrioritizedTasks(priority: .no, tasks: [])
+    PrioritizedTasks(priority: .High, tasks: []),
+    PrioritizedTasks(priority: .Medium, tasks: []),
+    PrioritizedTasks(priority: .Low, tasks: []),
+    PrioritizedTasks(priority: .Normal, tasks: [])
   ]
 
   private init() {

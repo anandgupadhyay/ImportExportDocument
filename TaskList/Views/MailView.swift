@@ -92,7 +92,7 @@ struct MailView: UIViewControllerRepresentable {
       viewController.addAttachmentData(
         fileData,
         mimeType: mimeType,
-        fileName: "ExportData.rwtl")
+        fileName: "ExportData.sumit")
     }
     return viewController
   }

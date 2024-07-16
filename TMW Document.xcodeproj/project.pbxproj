@@ -38,7 +38,7 @@
 		493268BA2313A2B9005F77B2 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		493268BC2313A343005F77B2 /* IndexedCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
 		493268BE2313A3FB005F77B2 /* ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
-		49A2855D22DC34F600B65A77 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A2855D22DC34F600B65A77 /* TMW Document.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMW Document.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A2856022DC34F600B65A77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A2856222DC34F600B65A77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		49A2856422DC34F600B65A77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		49A2855E22DC34F600B65A77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49A2855D22DC34F600B65A77 /* TaskList.app */,
+				49A2855D22DC34F600B65A77 /* TMW Document.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49A2855C22DC34F600B65A77 /* TaskList */ = {
+		49A2855C22DC34F600B65A77 /* TMW Document */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49A2857122DC34F700B65A77 /* Build configuration list for PBXNativeTarget "TaskList" */;
+			buildConfigurationList = 49A2857122DC34F700B65A77 /* Build configuration list for PBXNativeTarget "TMW Document" */;
 			buildPhases = (
 				18A5A642247881F8003DD5E8 /* ShellScript */,
 				49A2855922DC34F600B65A77 /* Sources */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = TaskList;
+			name = "TMW Document";
 			productName = Checklist;
-			productReference = 49A2855D22DC34F600B65A77 /* TaskList.app */;
+			productReference = 49A2855D22DC34F600B65A77 /* TMW Document.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49A2855822DC34F600B65A77 /* Build configuration list for PBXProject "TaskList" */;
+			buildConfigurationList = 49A2855822DC34F600B65A77 /* Build configuration list for PBXProject "TMW Document" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,7 +219,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49A2855C22DC34F600B65A77 /* TaskList */,
+				49A2855C22DC34F600B65A77 /* TMW Document */,
 			);
 		};
 /* End PBXProject section */
@@ -426,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.importexport.TaskList;
-				PRODUCT_NAME = TaskList;
+				PRODUCT_NAME = "TMW Document";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -447,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.importexport.TaskList;
-				PRODUCT_NAME = TaskList;
+				PRODUCT_NAME = "TMW Document";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -456,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49A2855822DC34F600B65A77 /* Build configuration list for PBXProject "TaskList" */ = {
+		49A2855822DC34F600B65A77 /* Build configuration list for PBXProject "TMW Document" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49A2856F22DC34F700B65A77 /* Debug */,
@@ -465,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49A2857122DC34F700B65A77 /* Build configuration list for PBXNativeTarget "TaskList" */ = {
+		49A2857122DC34F700B65A77 /* Build configuration list for PBXNativeTarget "TMW Document" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49A2857222DC34F700B65A77 /* Debug */,

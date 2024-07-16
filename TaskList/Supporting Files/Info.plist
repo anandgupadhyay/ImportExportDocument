@@ -100,12 +100,34 @@
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>rwtl</string>
-					<string>RWTL</string>
+					<string>sumit</string>
+					<string>SUMIT</string>
 				</array>
 			</dict>
 		</dict>
-		<dict/>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>TaskList Data</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
+			<key>UTTypeIdentifier</key>
+			<string>com.DocumentType.TaskList.TaskListData</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>sumit</string>
+					<string>SUMIT</string>
+				</array>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

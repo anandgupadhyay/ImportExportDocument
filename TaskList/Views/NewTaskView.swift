@@ -34,15 +34,13 @@ struct NewTaskView: View {
   @Environment(\.presentationMode) var presentationMode
 
   @State var text = ""
-  @State var priority: Task.Priority = .no
+  @State var priority: Task.Priority = .Normal
 
   var body: some View {
     Form {
       TextField("Note Name", text: $text)
-
       VStack {
         Text("Level")
-
         Picker("Level", selection: $priority.caseIndex) {
           ForEach(Task.Priority.allCases.indices) { priorityIndex in
             Text(
@@ -55,7 +53,7 @@ struct NewTaskView: View {
         .pickerStyle( SegmentedPickerStyle() )
       }
 
-      Button("Done") {
+      Button("Save") {
         let priorityIndex = self.taskStore.getIndex(for: self.priority)
         self.taskStore.prioritizedTasks[priorityIndex].tasks.append(
           Task(name: self.text)

@@ -29,6 +29,6 @@
 extension Task {
   enum Priority: String, CaseIterable, Codable {
     // swiftlint:disable:next identifier_name
-    case no, low, medium, high
+    case Normal, Low, Medium, High
   }
 }
