@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>priority</key>
+		<string>High</string>
+		<key>tasks</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>priority</key>
+		<string>Medium</string>
+		<key>tasks</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>priority</key>
+		<string>Low</string>
+		<key>tasks</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>priority</key>
+		<string>Normal</string>
+		<key>tasks</key>
+		<array>
+			<dict>
+				<key>identifier</key>
+				<string>D7AC3DB8-B70E-4E76-969F-DA283E8E0DC0</string>
+				<key>isComplete</key>
+				<false/>
+				<key>name</key>
+				<string>Basic note</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
