@@ -12,14 +12,14 @@
 				<string>icon-doc.png</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>TaskList Data</string>
+			<string>Sumit File</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.DocumentType.TaskList.TaskListData</string>
+				<string>com.DocumentType.sumit</string>
 			</array>
 		</dict>
 	</array>
@@ -89,13 +89,13 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>TaskList Data</string>
+			<string>Sumit File</string>
 			<key>UTTypeIconFiles</key>
 			<array>
 				<string>icon-doc.png</string>
 			</array>
 			<key>UTTypeIdentifier</key>
-			<string>com.DocumentType.TaskList.TaskListData</string>
+			<string>com.DocumentType.sumit</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -114,11 +114,11 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>TaskList Data</string>
+			<string>Sumit File</string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>com.DocumentType.TaskList.TaskListData</string>
+			<string>com.DocumentType.sumit</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>

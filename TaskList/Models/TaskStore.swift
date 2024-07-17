@@ -47,7 +47,7 @@ class TaskStore: ObservableObject {
   ]
 
   private init() {
-    print(tasksDocURL)
+    print("url:\(tasksDocURL)")
     loadPrioritizedTasks()
 
     $prioritizedTasks
@@ -76,7 +76,7 @@ class TaskStore: ObservableObject {
       let tasksData = try Data(contentsOf: urlToRead)
       prioritizedTasks = try decoder.decode([PrioritizedTasks].self, from: tasksData)
     } catch let error {
-      print(error)
+      print("Reading Error:\(error.localizedDescription)")
     }
   }
 
