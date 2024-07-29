@@ -60,7 +60,7 @@ class TaskStore: ObservableObject {
     prioritizedTasks.firstIndex { $0.priority == priority }!
   }
 
-  func importPrioritizedTasks(from url: URL) {
+  func importPrioritizedTasks(from url: URL){
     loadPrioritizedTasks(from: url)
   }
 
