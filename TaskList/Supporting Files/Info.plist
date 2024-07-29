@@ -19,7 +19,9 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.DocumentType.sumit</string>
+        <string>com.apple.pkpass</string>
+        <string>com.apple.pkpass-data</string>
+        <string>com.apple.pkpasses-data</string>
 			</array>
 		</dict>
 	</array>
@@ -86,7 +88,7 @@
 		<dict>
 			<key>UTTypeConformsTo</key>
 			<array>
-				<string>public.data</string>
+        <string>com.apple.pkpass</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>Sumit File</string>
@@ -100,8 +102,8 @@
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>sumit</string>
-					<string>SUMIT</string>
+					<string>pkpass</string>
+					<string>pkpasses</string>
 				</array>
 			</dict>
 		</dict>
@@ -111,7 +113,8 @@
 		<dict>
 			<key>UTTypeConformsTo</key>
 			<array>
-				<string>public.data</string>
+        <string>com.apple.pkpass</string>
+        <string>application/vnd.apple.pkpass</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>Sumit File</string>
@@ -123,8 +126,8 @@
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>sumit</string>
-					<string>SUMIT</string>
+					<string>pkpass</string>
+					<string>pkpasses</string>
 				</array>
 			</dict>
 		</dict>
